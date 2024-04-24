@@ -1861,3 +1861,18 @@ textarea.w-select {
 .wf-layout-layout {
   display: grid;
 }
+
+
+#play,
+#pause {
+	float: left;
+	width: 30px;
+  margin-right: 50px;
+}
+#play:hover,
+#pause:hover {
+	cursor: pointer;
+}
+#pause {
+	display: none;
+}
